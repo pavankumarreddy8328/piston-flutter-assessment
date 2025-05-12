@@ -13,6 +13,7 @@ class NoInternetPage extends StatelessWidget {
       children: [
         Icon(Icons.wifi_off_rounded,
         size: 48,
+        color: Colors.grey,
         ),
     
         SizedBox(
@@ -22,7 +23,8 @@ class NoInternetPage extends StatelessWidget {
         Center(
           child: Text("Oops!",
           style: TextStyle(
-            fontSize: 32
+            fontSize: 32,
+            color: Colors.grey
           ),),
         ),
     
@@ -33,7 +35,8 @@ class NoInternetPage extends StatelessWidget {
           child: Text("No Internet Connection",
           
           style: TextStyle(
-            fontSize: 24
+            fontSize: 24,
+             color: Colors.grey
           ),),
         )
       ],
